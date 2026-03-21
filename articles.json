@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-03-21-event-sourcing-explained-benefits-and-use-cases",
+    "title": "Event Sourcing Explained: Benefits and Use Cases",
+    "date": "2026-03-21",
+    "preview": "# Event Sourcing Explained: Benefits and Use Cases  每当我们在数据库中运行 `UPDATE` 语句时，一些东西就会消失。旧值，无论一秒前是什么，都已不复存在。  事实上，大多数数据库都被设计为“遗忘”。每次 `UPDATE` 都...",
+    "content": "# Event Sourcing Explained: Benefits and Use Cases\n\n每当我们在数据库中运行 `UPDATE` 语句时，一些东西就会消失。旧值，无论一秒前是什么，都已不复存在。\n\n事实上，大多数数据库都被设计为“遗忘”。每次 `UPDATE` 都会覆盖之前的内容，每次 `DELETE` 都会将其完全删除，应用程序只剩下当前状态的快照。我们接受这为常态，因为这是思考事物最自然的方式。\n\n但如果你的系统需要回答一种不同类型的问题呢？不仅仅是“当前状态是什么？”，而是“我们是如何走到这一步的？”\n\n这正是 Event Sourcing（事件溯源）旨在回答的问题。而且，这个解决方案既比初看之下更具回报，也更具挑战性。在本文中，我们将探讨 Event Sourcing 及其优势和权衡。\n\n---\n\n## 要点总结\n\n*   传统的数据库操作（如 `UPDATE` 和 `DELETE`）会覆盖或删除旧数据。\n*   大多数数据库默认只保留系统的当前状态（即“快照”），导致历史信息的丢失。\n*   这种设计使得应用程序难以追溯系统如何从过去演变到当前状态。\n*   Event Sourcing 是一种旨在解决这一问题的架构模式，它关注系统状态的演变过程。\n*   它通过记录所有导致状态变化的“事件”来构建系统状态，而不仅仅是存储最终状态。\n*   文章将进一步探讨 Event Sourcing 的具体优势和它所带来的权衡取舍。\n\n---\n\n## 你可以从这篇文章学到什么\n\n对于一位有几年经验的后端/系统设计工程师来说，这篇文章提供了一个理解 Event Sourcing 核心价值的绝佳起点，即使它只是一个引子。\n\n1.  **识别传统数据模型的局限性**：文章开宗明义地指出了传统关系型数据库（以及许多 NoSQL 数据库）在处理数据时的一个根本性缺点：它们被设计为“遗忘”。通过 `UPDATE` 和 `DELETE` 操作，我们丢失了宝贵的历史信息。这促使工程师思考，在哪些场景下，仅仅知道“是什么”是不够的，还需要知道“是如何发生的”。\n2.  **理解 Event Sourcing 的核心目标**：这篇文章清晰地阐明了 Event Sourcing 的存在理由——回答“我们是如何走到这一步的？”这个问题。这对于设计需要审计、可回溯、可重演或具备时间旅行能力的系统至关重要。\n3.  **启发对数据持久化策略的思考**：它鼓励工程师跳出 CRUD（Create, Read, Update, Delete）的思维框架，考虑更丰富的数据持久化策略。在实际工作中，这可能意味着在设计金融交易系统、订单履约系统、用户行为分析平台或任何需要严格审计和历史记录的场景时，Event Sourcing 能够提供更强大的解决方案。\n4.  **为深入学习铺垫**：文章作为 Event Sourcing 系列的开篇，激发了进一步探索这种模式的兴趣。它暗示了 Event Sourcing 在带来强大功能的同时，也伴随着新的复杂性和权衡，这对于构建健壮、可伸缩的分布式系统至关重要。作为工程师，你将学到如何根据业务需求和系统约束来选择合适的数据存储和演进模型。",
+    "url": "https://blog.bytebytego.com/p/event-sourcing-explained-benefits"
+  },
+  {
     "id": "2026-03-20-event-sourcing-explained-benefits-and-use-cases",
     "title": "Event Sourcing Explained: Benefits and Use Cases",
     "date": "2026-03-20",
