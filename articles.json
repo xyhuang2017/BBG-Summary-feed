@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-03-28-last-call-for-enrollment-become-an-ai-engineer-cohort-5",
+    "title": "LAST CALL FOR ENROLLMENT: Become an AI Engineer - Cohort 5",
+    "date": "2026-03-28",
+    "preview": "我们的第五期“成为AI工程师”课程将于明天，即3月28日开课。这是一门与畅销书作者Ali Aminian合作、由ByteByteGo发布的实时、基于社群（cohort-based）的课程。  本期课程的特色： *   **边学边做（Learn by doing）**：通过构建真实...",
+    "content": "我们的第五期“成为AI工程师”课程将于明天，即3月28日开课。这是一门与畅销书作者Ali Aminian合作、由ByteByteGo发布的实时、基于社群（cohort-based）的课程。\n\n本期课程的特色：\n*   **边学边做（Learn by doing）**：通过构建真实世界的AI应用来学习，而不仅仅是观看视频。\n*   **结构化、系统化的学习路径（Structured, systematic learning path）**：遵循精心设计的课程，循序渐进地从基础知识到高级主题。\n*   **实时反馈与指导（Live feedback and mentorship）**：获得来自讲师和同伴的直接反馈。\n*   **社区驱动（Community driven）**：独自学习困难重重，与社区一起学习则轻松高效！\n\n我们专注于技能培养，而非仅仅理论或被动学习。我们的目标是让每位参与者都能掌握扎实的AI系统构建基础。\n\n如果你想从零开始学习AI，这里是你的理想起点。\n\n---\n\n### 要点总结\n\n*   **实践驱动（Learn by doing）**：强调通过构建实际AI应用来掌握技能，而非纯理论或被动学习。\n*   **系统化学习路径（Structured learning path）**：遵循精心设计的课程，循序渐进地学习AI工程，从基础到高级。\n*   **实时反馈与指导（Live feedback and mentorship）**：在学习和实践过程中获取来自讲师和同伴的直接反馈。\n*   **社区协作（Community driven）**：通过社区交流和协作，共同解决问题并加速学习进程。\n*   **技能培养为核心（Skill building focus）**：专注于培养构建AI系统的实际技能，而非仅仅理论知识。\n*   **打下坚实基础（Strong foundation）**：目标是为参与者提供构建AI系统的扎实基础。\n\n---\n\n### 你可以从这篇文章学到什么\n\n对于拥有几年经验的后端/系统设计工程师而言，尽管本文是关于AI工程课程的宣传，但它所强调的一些学习和发展原则对于构建和集成AI系统、提升自身技术能力具有普遍的指导意义：\n\n1.  **重视实践与构建（Emphasis on Practical Building）**: 系统设计工程师的核心价值在于将理论转化为可运行的系统。文章强调“通过构建真实世界的AI应用来学习”，这与系统设计中通过原型验证、迭代开发来落地设计的理念高度契合。在将AI引入现有系统时，这意味着需要及早进行概念验证（POC）和最小可行产品（MVP）的开发，以验证AI模型与现有服务的集成、数据流的顺畅性、推理服务的性能等关键环节。\n\n2.  **结构化与系统化思维（Structured and Systematic Thinking）**: “结构化、系统化的学习路径”提醒我们，在设计复杂的AI系统时，必须有清晰的架构蓝图和分阶段的实施计划。无论是数据处理管道（Data Pipeline）、模型训练平台（Model Training Platform）、推理服务部署（Inference Service Deployment）还是模型运维（MLOps）策略，都需要系统性规划，从底层基础设施到上层应用逐步搭建，以确保整个AI系统的稳定性、可扩展性和可维护性。\n\n3.  **持续反馈与迭代优化（Continuous Feedback and Iterative Optimization）**: “实时反馈与指导”是现代软件开发，尤其是AI系统开发中不可或缺的一环。在AI系统设计中，这意味着要建立完善的监控（Monitoring）、日志（Logging）和A/B测试（A/B Testing）机制，以便收集模型性能数据、用户行为反馈和系统运行状况，并据此快速迭代优化模型、调整系统架构或改进用户体验。\n\n4.  **社区与知识共享（Community and Knowledge Sharing）**: 在AI技术飞速发展的当下，个人很难全面掌握所有最新技术栈和最佳实践。“社区驱动”的重要性在于，通过参与技术社区、与同行交流，可以快速获取新知、解决遇到的设计难题、借鉴他人经验并避免常见的陷阱。这也有助于在团队内部建立积极的知识共享文化，共同进步。\n\n5.  **技能导向与基础扎实（Skill-Oriented with Strong Foundations）**: 文章强调“专注于技能培养”和“扎实的AI系统构建基础”。对于系统工程师而言，这意味着不仅仅要理解AI模型的基本原理，更要深入掌握如何将模型高效地部署到生产环境、如何设计高并发、低延迟的推理服务、如何处理大规模数据、如何实现模型的版本控制和回滚、如何保障AI系统的安全性和可靠性等底层工程和系统设计技能。这些都是构建可靠、高性能AI系统所必需的“硬核”能力。",
+    "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-become-an-4da"
+  },
+  {
     "id": "2026-03-27-how-to-implement-api-security",
     "title": "How to Implement API Security",
     "date": "2026-03-27",
