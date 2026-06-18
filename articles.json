@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-18-last-call-for-enrollment-build-with-claude-code-cohort-2",
+    "title": "LAST CALL FOR ENROLLMENT: Build with Claude Code - Cohort 2",
+    "date": "2026-06-18",
+    "preview": "我们将推出“Build with Claude Code”第二期，这是一个为期两天、基于学员制的强化课程。该课程由 John Kim 教授，他曾在 Meta 培训了数百名工程师，使其能在实际生产工作流中使用 Claude Code。  课程将于 6 月 18 日开课，报名将在不到...",
+    "content": "我们将推出“Build with Claude Code”第二期，这是一个为期两天、基于学员制的强化课程。该课程由 John Kim 教授，他曾在 Meta 培训了数百名工程师，使其能在实际生产工作流中使用 Claude Code。\n\n课程将于 6 月 18 日开课，报名将在不到 24 小时内截止。如果您一直在考虑如何提升您和团队使用 Claude Code 的能力，现在就是最佳时机。\n\n您将学到以下几点：\n*   使 Claude Code 对实际项目有用的“agentic loop”（代理循环）、“context engineering”（上下文工程）和“memory layers”（记忆层）。\n*   如何利用 Claude Code Skills、MCPs 和 hooks（钩子）来为 Claude 提供所需的工具和反馈循环，使其能够自我纠正。\n*   使用 Git worktrees（Git 工作树）、subagents（子代理）和 agent teams（代理团队）进行并行开发。\n*   一个结课项目，您将在自己的技术栈上交付一个真实的产品。\n\n该课程包括现场会话、作业和办公时间，因此您有充足的空间提问并解决遇到的难题。\n\n第二期将于几天后开课：2026 年 6 月 18 日至 19 日。如果您希望学习从 Claude Code 基础知识到高级生产工作流（包括处理大型代码库）的一切内容，这可能是一个很好的提升机会。\n\n---\n\n### 要点总结\n\n*   深入学习 Claude Code 在实际项目中的应用，包括“agentic loop”（代理循环）、“context engineering”（上下文工程）和“memory layers”（记忆层）。\n*   掌握如何利用 Claude Code Skills、MCPs 和 hooks 来构建具有自我纠正能力的 AI 工具和反馈机制。\n*   学习使用 Git worktrees、subagents 和 agent teams 进行高效的并行开发。\n*   通过完成一个真实的结课项目，将所学知识应用于自己的技术栈。\n*   涵盖从 Claude Code 基础到高级生产工作流的全面知识。\n*   特别关注处理大型代码库的挑战和解决方案。\n\n---\n\n### 你可以从这篇文章学到什么\n\n对于一名拥有数年经验的后端或系统设计工程师来说，这篇文章（及其介绍的课程内容）揭示了将先进的 AI 编码助手（如 Claude Code）融入日常开发和系统设计工作流的巨大潜力。\n\n1.  **提升开发效率与代码质量**：文章强调了学习“agentic loop”（代理循环）、“context engineering”（上下文工程）和“memory layers”（记忆层）的重要性。这些概念对于系统设计工程师而言，意味着可以更高效地利用 AI 来生成、审查和优化代码，尤其是在构建复杂后端服务、微服务或大规模分布式系统时，能够显著加速开发周期并减少人为错误。\n2.  **掌握AI辅助的并行开发范式**：课程中提及的“Git worktrees”、“subagents”和“agent teams”等技术，为工程师提供了将 AI 智能体（Agent）与人类协作、并行开发的方法。在实际系统设计中，这可以用于并行探索不同的架构方案、快速迭代原型，甚至让 AI 协助管理多模块、多服务之间的复杂依赖和开发任务，从而大幅提升团队的并行工作能力和项目交付速度。\n3.  **构建智能化的开发工具与工作流**：学习如何利用 Claude Code Skills、MCPs 和 hooks 不仅仅是使用一个工具，更是学习如何“编程 AI”，使其能够自我纠正并适应复杂的开发需求。系统工程师可以将这些理念应用于内部工具的开发、CI/CD（持续集成/持续部署）管道的优化，甚至自动化运维脚本，使其具备更强的智能化和适应性，提升系统的稳定性和可维护性。\n4.  **高效处理大型和复杂代码库**：文章特别指出课程涵盖了处理大型代码库的高级生产工作流。对于负责维护和扩展复杂遗留系统或大型分布式系统的工程师来说，掌握如何借助 AI 进行代码理解、重构、迁移和故障排除，将是提高生产力、降低维护成本和技术债务的关键能力。\n\n总而言之，这篇文章预示了 AI 在软件工程领域，尤其是系统设计与后端开发中的深入应用趋势。它提供了一套利用 AI 重塑开发流程、提升系统设计效率和质量的思维框架与实践方法，帮助工程师在快速发展的技术环境中保持竞争力，更高效地构建和维护现代系统。",
+    "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-build-with"
+  },
+  {
     "id": "2026-06-17-how-open-weight-models-changed-the-ai-landscape",
     "title": "How Open-Weight Models Changed the AI Landscape",
     "date": "2026-06-17",
