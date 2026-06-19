@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-19-observability-for-beginners-logs-metrics-traces-and-everything-around-them",
+    "title": "Observability for Beginners: Logs, Metrics, Traces, and Everything Around Them",
+    "date": "2026-06-19",
+    "preview": "# 可观测性入门：日志、指标、追踪及其周边的一切  运行中的服务会持续不断地生成事件。请求的到达、函数的执行、错误的出现，每一个都是在特定时间、特定上下文和特定结果下发生的事情。  Logs（日志）、Metrics（指标）和 Traces（追踪）是观察这一事件流的三种方式。Log...",
+    "content": "# 可观测性入门：日志、指标、追踪及其周边的一切\n\n运行中的服务会持续不断地生成事件。请求的到达、函数的执行、错误的出现，每一个都是在特定时间、特定上下文和特定结果下发生的事情。\n\nLogs（日志）、Metrics（指标）和 Traces（追踪）是观察这一事件流的三种方式。Log 将单个事件捕获为一行文本，Metric 统计或聚合多个事件，而 Trace 则将跨服务移动的相关事件连接起来。可观测性（observability）中的大多数概念，包括 cardinality（基数）、sampling（采样）和 correlation（关联），都是这种结构的结果。\n\n在本文中，我们将详细探讨可观测性的基础知识，并深入解释 Logs、Metrics 和 Traces 等概念。\n\n## 要点总结\n\n*   运行中的服务会持续生成各种事件，例如请求、函数执行和错误。\n*   每个事件都发生在特定时间、具有特定上下文并产生特定结果。\n*   Logs（日志）、Metrics（指标）和 Traces（追踪）是观察和理解这些事件流的三种核心方式。\n*   Log (日志) 将单个事件捕获为一行文本记录。\n*   Metric (指标) 用于计数或聚合多个事件的数据。\n*   Trace (追踪) 连接跨越不同服务的所有相关事件，展示端到端的请求流。\n*   可观测性（Observability）中的许多核心概念，例如 cardinality（基数）、sampling（采样）和 correlation（关联），都源于 Logs、Metrics 和 Traces 的这种结构。\n*   本文将详细探讨可观测性的基础知识以及 Logs、Metrics 和 Traces 的具体细节。\n\n## 你可以从这篇文章学到什么\n\n对于具有几年经验的后端/系统设计工程师而言，这篇文章虽短，但提供了对可观测性核心概念的清晰概述，能带来以下价值：\n\n*   **建立可观测性基石**: 帮助工程师重新审视并巩固对 Logs、Metrics 和 Traces 这三大核心支柱的理解，为深入学习和实践分布式系统可观测性奠定坚实基础。\n*   **理解数据类型差异与应用**: 区分日志、指标和追踪各自的特点、适用场景和局限性。这有助于在系统设计初期就规划出合理的监控方案，例如何时选择记录详细日志、何时采用聚合指标，以及如何利用追踪来洞察分布式调用链。\n*   **洞察可观测性底层逻辑**: 认识到 cardinality（基数）、sampling（采样）和 correlation（关联）等关键概念是如何与这三种数据类型紧密相连的。这种理解能指导工程师更明智地设计数据采集策略，平衡数据粒度、存储成本与分析效率。\n*   **优化系统监控与排查策略**: 基于对这些基础概念的理解，工程师可以更好地规划如何收集、存储和分析系统数据，从而构建更高效、更全面的监控和预警体系。在面对复杂系统故障时，也能更有效地组合运用日志、指标和追踪数据，快速定位问题根源，提升故障诊断效率。\n*   **为后续深入学习打下基础**: 本文作为入门级介绍，为工程师进一步探索高级可观测性工具（如 Prometheus、Grafana、Jaeger、ELK Stack等）、理解OpenTelemetry等标准化框架以及设计可观测性架构提供了必要的理论铺垫。",
+    "url": "https://blog.bytebytego.com/p/observability-for-beginners-logs"
+  },
+  {
     "id": "2026-06-18-last-call-for-enrollment-build-with-claude-code-cohort-2",
     "title": "LAST CALL FOR ENROLLMENT: Build with Claude Code - Cohort 2",
     "date": "2026-06-18",
