@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-07-10-streaming-vs-batch-two-philosophies-of-data-processing",
+    "title": "Streaming vs Batch: Two Philosophies of Data Processing",
+    "date": "2026-07-10",
+    "preview": "# 流处理与批处理：数据处理的两种哲学  每个数据处理系统最终都必须回答一个问题：数据何时才足够完整，可以进入计算阶段？  一个汇总一天销售额的程序需要知道当天所有的销售数据是否都已到达。对于存储在文件中的数据，答案很简单，因为文件有明确的结尾。然而，对于持续不断到达的数据，没有...",
+    "content": "# 流处理与批处理：数据处理的两种哲学\n\n每个数据处理系统最终都必须回答一个问题：数据何时才足够完整，可以进入计算阶段？\n\n一个汇总一天销售额的程序需要知道当天所有的销售数据是否都已到达。对于存储在文件中的数据，答案很简单，因为文件有明确的结尾。然而，对于持续不断到达的数据，没有一个清晰的答案，系统如何解决这一鸿沟，正是批处理（batch processing）与流处理（streaming）之间的区别。\n\n批处理等待数据的完整性。它将数据收集到自然边界（例如，截止时间或完成的文件），然后一次性对整个数据集进行计算。流处理则优先考虑速度，从持续到达的数据中连续生成答案，这意味着它必须估算何时有足够的数据到达，并处理估算错误的情况。这种在数据完整性（completeness）和处理延迟（latency）之间的权衡，是处理流处理和批处理时的关键考量。\n\n本文将涵盖这两种方法的策略及其各自的成本。\n\n在批处理方面，策略包括全量加载（full loads）和增量加载（incremental loads）、大窗口聚合（large-window aggregation），而微批处理（micro-batch）则介于两者之间。\n\n在流处理方面，涉及的技术包括翻滚窗口（tumbling windows）、滑动窗口（sliding windows）和会话窗口（session windows），水位线（watermarks）和迟到数据（late data），Lambda 架构和 Kappa 架构，以及经常被误解的“精确一次处理”（exactly-once processing）的含义。\n\n## 要点总结\n\n*   数据处理的核心问题是：数据何时足够完整以进行计算。\n*   **批处理（Batch Processing）**：等待数据达到完整的自然边界（如文件末尾、截止时间），然后一次性处理整个数据集。\n*   **流处理（Streaming Processing）**：优先考虑速度，从持续到达的数据中连续生成结果，需要估算数据完整性并处理可能的估算错误。\n*   **核心权衡**：批处理和流处理之间的关键区别在于对数据**完整性（completeness）**和**处理延迟（latency）**的权衡。\n*   **批处理策略**：包括全量加载（full loads）、增量加载（incremental loads）和大窗口聚合（large-window aggregation）。\n*   **流处理策略**：涉及翻滚窗口（tumbling windows）、滑动窗口（sliding windows）、会话窗口（session windows）、水位线（watermarks）、迟到数据（late data）。\n*   **架构模式**：文章将提及 Lambda 架构和 Kappa 架构。\n*   **关键概念**：还会探讨精确一次处理（exactly-once processing）的含义。\n*   **微批处理（Micro-batch）**：作为一种介于批处理和流处理之间的方法。\n\n## 你可以从这篇文章学到什么\n\n对于一位有几年经验的后端/系统设计工程师来说，这篇文章提供了一个简洁而深刻的概述，揭示了数据处理领域最基本的两种范式。\n\n1.  **建立清晰的认知框架**：文章清晰地定义了批处理和流处理的核心哲学，即一个等待完整性，一个优先速度。这对于在设计数据管道时做出基础性决策至关重要。你将更好地理解为何某些场景偏向批处理（如月末结算），而另一些则需要流处理（如实时风控）。\n2.  **理解核心权衡**：数据完整性与处理延迟之间的权衡是系统设计的永恒主题。这篇文章强调了这一核心矛盾，并解释了两种处理方式如何解决它。这种理解能帮助你在实际项目中根据业务SLA（服务等级协议）和数据敏感度，明智地选择或组合处理模式。\n3.  **掌握关键技术术语和概念**：文章提到了两类处理方式中的诸多关键技术，如全量/增量加载、各种窗口函数（翻滚、滑动、会话）、水位线、迟到数据、Lambda/Kappa架构以及精确一次处理。熟悉这些概念不仅能帮助你阅读和理解复杂的技术文档，也能让你在设计或讨论数据系统时，使用统一且准确的语言与团队成员高效沟通。\n4.  **为深入学习打下基础**：虽然文章只是引言，但它为你指明了深入学习的方向。例如，理解了窗口函数的分类，你就可以进一步探索Apache Flink或Spark Streaming中如何实现和优化这些窗口操作；了解Lambda/Kappa架构，可以帮助你评估和设计混合型数据处理系统。\n5.  **提升故障排除能力**：例如，理解水位线和迟到数据如何影响流处理结果，能帮助你在遇到数据延迟或不一致问题时，更快地定位问题根源并进行调优。对于“精确一次处理”的真正含义的理解，也能避免在分布式系统中可能出现的常见误解和bug。",
+    "url": "https://blog.bytebytego.com/p/streaming-vs-batch-two-philosophies"
+  },
+  {
     "id": "2026-07-09-the-agent-loop-how-ai-goes-from-answering-questions-to-doing-things",
     "title": "The Agent Loop: How AI Goes From Answering Questions to Doing Things",
     "date": "2026-07-09",
