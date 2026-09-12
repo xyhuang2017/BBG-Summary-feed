@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-09-12-learn-claude-code-evals-ai-systems-and-more-bytebytego-live-is-here",
+    "title": "Learn Claude Code, evals, AI systems, and more: ByteByteGo Live is here",
+    "date": "2026-09-12",
+    "preview": "# 学习 Claude Code、评估、AI 系统及更多：ByteByteGo Live 来了  大多数在线课程都无法完成（完成率约为4%）。而在线直播课程（Live cohorts）的完成率约为40%，高出近10倍。直播课程是人们真正能够完成的唯一课程。  因此，我们推出了 B...",
+    "content": "# 学习 Claude Code、评估、AI 系统及更多：ByteByteGo Live 来了\n\n大多数在线课程都无法完成（完成率约为4%）。而在线直播课程（Live cohorts）的完成率约为40%，高出近10倍。直播课程是人们真正能够完成的唯一课程。\n\n因此，我们推出了 ByteByteGo Live。课程阵容包括：\n\n*   使用 Claude Code 进行构建（John Kim，Meta 高级资深工程师，几天后开课）\n*   构建生产级 AI 系统（Tanya Roosta，AMD 总监，加州大学伯克利分校博士）\n*   AI 工程基础（Ali Aminian，Google，畅销书作者）\n*   AI 评估实践（Manjeet Singh，Salesforce 高级总监）\n*   AI 成本优化（Jeremy Hintz，Meta 工程主管）\n*   使用 AI 重建 YouTube（Mikhail Sychev，Google 资深软件工程师）\n*   以信任为优化的 AI 开发（Trust-optimized AI Development）（Kent Beck，TDD 创始人）\n\n一个会员资格将包含未来12个月内我们提供的所有直播课程，包括后续新增的课程。\n\n---\n\n## 要点总结\n\n*   在线直播课程（Live cohorts）相比普通在线课程具有更高的完成率。\n*   ByteByteGo 推出了名为“ByteByteGo Live”的直播课程平台。\n*   课程内容涵盖了从 AI 编程（如 Claude Code）到构建生产级 AI 系统等多个方面。\n*   课程也深入探讨了 AI 工程化中的关键实践，包括 AI 评估（AI Evals）和 AI 成本优化。\n*   提供了将 AI 应用于改造现有大型系统（如“重建 YouTube”）的案例学习。\n*   强调了“以信任为优化的 AI 开发”（Trust-optimized AI Development）这一前沿重要概念。\n*   课程讲师团队阵容强大，均来自 Meta、AMD、Google、Salesforce 等顶尖科技公司。\n*   TDD 创始人 Kent Beck 将教授信任优化 AI 开发课程。\n*   一个会员资格即可在12个月内无限制访问所有直播课程，并包含未来新增课程。\n\n---\n\n## 你可以从这篇文章学到什么\n\n对于一个拥有几年经验的后端/系统设计工程师来说，尽管这篇短文是一个课程公告，但其背后蕴含的信息对于理解当前及未来 AI 系统设计和工程趋势极具价值：\n\n1.  **洞察 AI 系统设计的核心痛点与方向：** 文章列出的课程主题本身就是当前 AI 领域最受关注的实践和挑战。例如，“构建生产级 AI 系统”、“AI 评估实践”和“AI 成本优化”直接指出了将 AI 模型从原型推向生产环境、并高效稳定运行所需考虑的关键要素。这促使系统设计师不仅要关注模型本身，更要关注 AI 系统的可扩展性、可靠性、可维护性和经济性。\n2.  **理解 AI 工程化的成熟度要求：** 对于有经验的工程师而言，AI 已经不再是实验室里的概念验证，而是需要像传统软件一样进行严谨工程化管理的系统。文章中提及的“AI 工程基础”和“AI Evals in Practice”强调了 AI 系统生命周期中，从模型开发、部署到持续监控和迭代的标准化流程，以及如何科学地评估 AI 表现，这对于构建健壮的 AI 基础设施至关重要。\n3.  **探索 AI 与现有系统的融合模式：** “使用 AI 重建 YouTube”这样的课程标题，为系统设计师提供了如何将 AI 深度融入现有大型、复杂系统中的思考视角。它不仅仅是简单地添加一个 AI 服务，更可能是通过 AI 重新设计核心业务逻辑和用户体验，这会带来全新的架构挑战和优化机遇，例如数据流重构、延迟优化和弹性设计等。\n4.  **关注 AI 系统的非功能性需求——信任与伦理：** Kent Beck 教授的“以信任为优化的 AI 开发（Trust-optimized AI Development）”课程尤为突出。随着 AI 在关键决策中扮演的角色越来越重，确保 AI 系统的透明度、公平性、可解释性和安全性变得至关重要。这对于系统设计师来说，意味着在架构设计阶段就需要考虑如何内置机制来增强 AI 系统的可审计性、偏见检测和鲁棒性，以赢得用户和社会的信任。\n5.  **把握行业人才需求和学习路径：** 文章揭示了当前市场对具备 AI 系统设计、工程化和优化能力的专业人才的需求。对于希望转向或深化 AI 领域技能的后端工程师而言，这些课程主题指明了有效的学习方向和进阶路径，可以借此来规划个人发展和技能树的扩展。",
+    "url": "https://blog.bytebytego.com/p/learn-claude-code-evals-ai-systems"
+  },
+  {
     "id": "2026-09-11-a-guide-to-application-networking-basics",
     "title": "A Guide to Application Networking Basics",
     "date": "2026-09-11",
