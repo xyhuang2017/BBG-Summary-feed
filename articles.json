@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-09-16-last-call-for-enrollment-build-with-claude-code",
+    "title": "LAST CALL FOR ENROLLMENT: Build with Claude Code",
+    "date": "2026-09-16",
+    "preview": "我们正在重新推出“使用 Claude Code 进行构建”（Build with Claude Code）课程。这是一个为期两天的密集型团队协作课程，由 John Kim 教授。他曾在 Meta 培训了数百名工程师，使其能够在实际生产工作流中使用 Claude Code。  课程...",
+    "content": "我们正在重新推出“使用 Claude Code 进行构建”（Build with Claude Code）课程。这是一个为期两天的密集型团队协作课程，由 John Kim 教授。他曾在 Meta 培训了数百名工程师，使其能够在实际生产工作流中使用 Claude Code。\n\n课程将于9月16日开课，报名将在24小时内截止。如果您一直在考虑如何提升您和团队使用 Claude Code 的能力，现在正是时候。\n\n您将学到以下几点：\n\n*   智能体循环（agentic loop）、上下文工程（context engineering）和记忆层（memory layers），这些是使 Claude Code 对实际项目有用的关键。\n*   如何使用 Claude Code 的技能（Skills）、MCPs 和钩子（hooks）来为 Claude 提供所需的工具和反馈循环，以实现自我修正。\n*   使用 Git worktrees（Git 工作区）、子智能体（subagents）和智能体团队（agent teams）进行并行开发。\n*   一个结业项目，您将在自己的技术栈上交付一个真实的产品。\n\n课程包括直播课程、作业和答疑时间，因此您将有充足的机会提问并解决遇到的难题。\n\n如果您想学习从 Claude Code 基础知识到高级生产工作流的所有内容，包括如何处理大型代码库，这将会是一个极好的提升机会。\n\n---\n\n### 要点总结\n\n*   **课程名称与形式**: 课程名为“使用 Claude Code 进行构建”，为期两天，是密集型团队协作（cohort-based）课程。\n*   **讲师背景**: 由 John Kim 教授，他曾在 Meta 培训数百名工程师使用 Claude Code 于实际生产工作流中。\n*   **核心技术概念**: 课程内容涵盖智能体循环（agentic loop）、上下文工程（context engineering）和记忆层（memory layers），这些是使 Claude Code 对实际项目有用的关键。\n*   **Claude Code 应用**: 学员将学习如何利用 Claude Code 的技能（Skills）、MCPs 和钩子（hooks）来为 AI 提供自我修正所需的工具和反馈循环。\n*   **高级开发实践**: 课程涉及使用 Git worktrees（Git 工作区）、子智能体（subagents）和智能体团队（agent teams）进行并行开发。\n*   **实战项目**: 包含一个结业项目，要求学员在自己的技术栈上交付一个真实的产品。\n*   **互动与支持**: 课程提供直播课程、作业和答疑时间（office hours），以确保学员能够充分提问并解决难题。\n*   **学习目标**: 旨在帮助学员全面掌握从 Claude Code 基础知识到高级生产工作流，包括处理大型代码库的能力。\n\n---\n\n### 你可以从这篇文章学到什么\n\n对于一位具有几年经验的后端/系统设计工程师来说，尽管本文主要是一门课程的介绍，但其中蕴含的技术方向和概念对理解未来系统设计趋势及优化开发工作流具有重要的参考价值：\n\n*   **理解LLM在开发中的应用范式**: 文章提及的“智能体循环（agentic loop）”、“上下文工程（context engineering）”和“记忆层（memory layers）”是构建基于大型语言模型（LLM）的开发工具或将AI能力集成到现有系统中的核心思想。系统设计工程师可以从中学习如何设计和实现能够有效利用AI进行代码生成、调试和优化的智能系统。\n*   **AI辅助开发的实践方法**: 课程中关于使用 Claude Code Skills、MCPs 和 hooks 来实现AI自我修正的描述，为工程师提供了AI在实际开发场景中如何进行迭代和优化的具体方法论。这对于设计能够自我改进或具有适应性学习能力的开发工具链、自动化测试系统或运维机器人至关重要。\n*   **AI赋能的并行开发与团队协作**: 探讨了利用 Git worktrees、子智能体（subagents）和智能体团队（agent teams）进行并行开发，这暗示了AI在提升团队开发效率和协作模式上的潜力。系统设计工程师可以思考如何设计和构建支持AI与人类工程师高效协作的开发环境、版本控制策略和自动化部署流程。\n*   **LLM在大型复杂系统中的应用**: 课程内容涵盖了高级生产工作流和处理大型代码库，这对于在企业级复杂系统中引入LLM辅助开发或代码生成的系统设计者来说具有直接的指导意义，包括如何处理代码依赖、架构约束和性能优化等问题。\n*   **将AI技术转化为实际产出**: 结业项目要求在自己的技术栈上交付真实产品，强调了将抽象的AI理论转化为实际可部署解决方案的能力。这与系统设计工程师的职责高度契合，促使工程师思考如何设计出既能满足业务需求又能充分利用AI优势的实用系统。",
+    "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-build-with-d63"
+  },
+  {
     "id": "2026-09-15-llms-as-a-judge-how-to-know-if-your-llm-is-healthy",
     "title": "LLMs as a Judge: How to Know if Your LLM is Healthy",
     "date": "2026-09-15",
