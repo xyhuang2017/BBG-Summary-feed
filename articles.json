@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-10-27-last-chance-to-get-every-live-course-in-one-membership",
+    "title": "Last chance to get every live course in one membership",
+    "date": "2026-10-27",
+    "preview": "Alex Xu 2026年10月26日  AI成本优化 (AI Cost Optimization)，由Meta工程主管Jeremy Hintz授课。 构建生产级AI系统 (Build Production Grade AI Systems)，由AMD AI总监Tanya Roo...",
+    "content": "Alex Xu\n2026年10月26日\n\nAI成本优化 (AI Cost Optimization)，由Meta工程主管Jeremy Hintz授课。\n构建生产级AI系统 (Build Production Grade AI Systems)，由AMD AI总监Tanya Roosta授课。\nAI工程基础 (AI Engineering Fundamentals)，由畅销机器学习和生成式AI书籍作者、斯坦福大学AI课程贡献者Ali Aminian授课。\n使用Claude Code进行构建 (Build with Claude Code)，由Meta高级资深工程师John Kim授课。\n实践中的AI评估：面向工程师和产品经理 (AI Evals in Practice: For Engineers & PMs)，由Salesforce AI产品管理高级总监Manjeet Singh授课。\n信任优化的AI开发 (Trust-optimized AI Development)，由极限编程创建者、测试驱动开发先驱Kent Beck授课。\n用AI重建YouTube (Rebuild YouTube with AI)，由谷歌前YouTube技术负责人Mikhail Sychev授课。\n\nAlex Xu\nByteByteGo联合创始人\n\n---\n\n### 要点总结\n\n*   当前AI系统设计涵盖从成本优化到生产级系统构建的广泛领域。\n*   AI工程基础是理解和应用AI技术的核心，尤其是在构建复杂系统时。\n*   实践中的AI评估对于确保AI系统性能和满足业务需求至关重要，需要工程师和产品经理的协作。\n*   强调了AI开发的信任优化和测试驱动方法，以构建可靠、可解释和安全的AI系统。\n*   实际项目，如使用AI重建知名平台（例如YouTube），是学习和应用大规模AI系统设计的重要途径。\n*   课程内容涉及AI模型在特定场景（如使用Claude Code）下的应用和集成。\n*   教学团队汇集了来自Meta、AMD、Salesforce、Google等顶尖科技公司的行业专家，带来了一线实践经验。\n\n---\n\n### 你可以从这篇文章学到什么\n\n作为一名有经验的后端/系统设计工程师，虽然这篇文章本身是关于课程的公告，但其列出的课程主题和授课专家揭示了当前AI系统设计和工程领域的几个关键趋势和重要方向：\n\n1.  **AI工程化与生产实践**: “构建生产级AI系统”和“用AI重建YouTube”等课程标题表明，业界对将AI模型从原型阶段推向大规模、高可靠性的生产环境有强烈需求。这要求工程师不仅理解AI算法，还要精通分布式系统、性能优化、可伸缩性、高可用性、监控与日志等系统设计核心技能，以应对AI应用带来的独特挑战。在实际工作中，这意味着设计AI服务时需考虑其与现有微服务架构的集成、数据管道的可靠性以及模型的持续部署（MLOps）。\n2.  **AI成本与效率优化**: “AI成本优化”课程凸显了在实际部署中，管理和优化AI系统（特别是大型模型）的计算、存储和推理成本的重要性。这对于设计经济高效、资源利用率高的AI架构至关重要，需要工程师在性能、成本与复杂性之间进行权衡。例如，在设计机器学习推理服务时，可能需要考虑边缘计算、模型剪枝、量化以及选择合适的硬件加速器以降低运营成本。\n3.  **AI系统的可信赖性与评估**: “信任优化的AI开发”和“实践中的AI评估：面向工程师和产品经理”强调了AI系统的可靠性、公平性、透明度和安全性日益受到关注。在系统设计层面，这意味着需要考虑数据溯源、模型可解释性工具的集成、异常检测、安全防护以及持续的模型验证与部署流程。工程师需要设计机制来监控AI模型的行为，识别潜在的偏差，并确保系统能够抵御攻击。\n4.  **前沿技术与行业专家洞察**: 课程由来自Meta、AMD、Salesforce、Google等顶尖公司的工程负责人和技术专家讲授，这为工程师提供了了解这些公司在AI领域实践和挑战的机会，以及可能使用的技术栈和设计范式。这有助于工程师预判行业发展方向，并根据一线经验调整自身的技术学习路径。\n5.  **跨职能协作**: “AI评估：面向工程师和产品经理”提示了在AI系统开发中，工程师与产品经理之间紧密协作的重要性，特别是在定义评估标准、收集用户反馈和迭代产品功能方面。一个成功的AI系统不仅技术过硬，还需要精准地满足业务需求并提供良好的用户体验，这需要跨职能团队的共同努力。\n\n总的来说，这篇文章虽然简短，但它通过课程列表描绘了一幅当前AI系统设计和工程领域的全景图，对于希望在AI时代提升自身系统设计能力的工程师来说，提供了宝贵的方向指引和学习机会。它可以帮助工程师识别新兴的技术领域、评估自身技能差距，并为未来的职业发展规划提供参考，尤其是在将AI能力集成到大型复杂系统中的挑战和解决方案方面。",
+    "url": "https://blog.bytebytego.com/p/last-chance-to-get-every-live-course"
+  },
+  {
     "id": "2026-10-26-a-deep-dive-into-salesforce-s-agent-tech-stack",
     "title": "A Deep Dive into Salesforce’s Agent Tech Stack",
     "date": "2026-10-26",
